@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/punthanat/opsta-web:dev
+    ports:
+      - "8080:80"
